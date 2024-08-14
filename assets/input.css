@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Kanit';
+    src: url('fonts/Kanit-ExtraBoldItalic.ttf')
+    
+}
+body{
+    font-family: "Kanit",sans-serif;
+}
+    .full-screen{
+        height: 100vh;
+    }
+
+    .hero{
+        background-image:url('img/images\ \(1\).jpg') ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-content{
+
+    }
